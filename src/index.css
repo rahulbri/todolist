@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #908988;
+  overflow: scroll !important;
+  overflow-x: hidden !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.addTask{text-decoration: none;color:white !important;}
+.form{margin: auto !important;}
+.appbar{background-color: black !important;justify-content: space-between;}
+.input-text{width: 100%;
+  background-color: lightblue;
+  border: 1px solid white;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+.btnMain{text-align: center; margin: 20px;}
+.submit{background-color: yellow !important;
+  color: black !important;
+  width: 180px !important;
+  height: 30px !important;
+}
+.lable{color:white}
+.addUser{background-color:#908988;margin: 60px 0;}
+.footer{background-color: black !important;position: fixed;bottom: 0;width: 100%;}
+.icon{color:white !important}
+.addCircle{padding: 10px;
+background-color: yellow;
+color:black;
+}
+.mainCard{display:flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;margin: 60px 0; }
+.card{margin: 10px;width: 350px;border: none;}
+.subCard{display: flex; flex-direction: row; justify-content: space-between; }
+.heigh{background-color: yellow !important;border-left:5px solid red !important;}
+.low{background-color: lightpink !important;border-left:5px solid yellow !important;}
+.normal{background-color: lightblue !important;border-left:5px solid greenyellow !important;}
+
